@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Matrix inversion is usually a costly computation.
+## The following pair of functions can make a spectial matrix with its inversion cache.
 
 ## Make matrix to a cached matrix
 
