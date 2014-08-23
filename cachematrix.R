@@ -4,6 +4,12 @@
 ## Make matrix to a cached matrix
 
 makeCacheMatrix <- function(x = matrix()) {
+		## Check if the input matrix is square
+		if(nrow(x) != ncol(x)) {
+				message("the input matrix must be square")
+				return(NULL)
+		}
+
 		m <- NULL
 		set <- function(y) {
 				x <<- y
